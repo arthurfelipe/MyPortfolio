@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur's Projects</title> <!-- assigns a title to appear on the browser bar -->
+    <link rel="stylesheet" href="styles.css"> <!-- linking the css file for this project -->
+    <link rel="shortcut icon" href="images/BLACK LOGO.svg"> <!-- icon on the browser bar -->
+</head>
+<body>
+
+    <div class="mobileNavigationBar">
+        <div class="home">
+            <a href="index.html"><img src="images/3.png" alt="go to home page" width="30px" height="auto"></a>
+            <p>HOME</p>
+        </div>
+        <div class="projects">
+            <a href="projects.html"><img src="images/2.png" alt="go to projects page" width="30px" height="auto"></a>
+            <p>PROJECTS</p>
+        </div>
+        <div class="about">
+            <a href="about.html"><img src="images/1.png" alt="go to about page" width="30px" height="auto"></a>
+            <p>ABOUT ME</p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="logoContainer">
+            <img src="images/LOGO.svg" height="50px" width="auto" 
+                alt="Welcome to Arthur Felipe's portfolio">
+        </div>
+
+        <div class="navigationLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contentSection">
+        <div class="titleArea">
+            <div class="writtenSection">
+                <p><span>My Projec</span>ts</p>
+            </div>
+            <div class="logoSection">
+                <img src="images/BLACK LOGO.svg" height="70px" width="auto" 
+                    alt="Under here you will find all of my projects">
+            </div>
+        </div>
+        
+        <div class="allProjects">
+            <div class="cadProjects">
+                <ul>
+                    <li><a href="#" title="CAD project"> Hm yes dis my first promjecc</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <hr class="separator">
+        <div class="contactForm">
+            <!-- I'm using Netlify to handle form submissions. Be sure to use
+                data-netlify="true" and to give a form name unique to your project, 
+                so you recognize it on the dashboard, if you're also using Netlify  -->
+            <p>Want to contact me? Fill up this form!<br>Let's get in touch.</p>
+            <form name="contactViaNetlify" data-netlify="true" action="/success.html" 
+                method="POST" enctype="multipart/form-data">
+                <div class="firstRow">
+                    <input type="text" name="name" class="formControl" placeholder="Name">
+                    <input type="email" name="email" class="formControl" placeholder="E-mail">
+                </div>
+                <div class="secondRow">
+                    <input type="tel" name="phone" class="formControl" placeholder="Phone">
+                    <input type="file" name="file" class="formControl" placeholder="File upload">
+                </div>
+                <div class="thirdRow">
+                    <textarea rows="5" cols="70" name="message" class="formControl"
+                        placeholder="Type your message here"></textarea>
+                </div>
+                <input type="submit" class="submitButton">
+            </form>
+        </div>
+        <p>From Arthur, to the world 🌎 | Campinas, São Paulo | 2021</p>
+    </div>
+    
+    
+
+</body>
+</html>
