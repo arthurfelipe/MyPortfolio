@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles/general_style.css">
+</head>
+
+<body>
+    <div class="mobileNavigationBar">
+        <div class="home">
+            <a href="/index.html"><img src="/images/3.png" alt="go to home page" width="30px" height="auto"></a>
+            <p>HOME</p>
+        </div>
+        <div class="projects">
+            <a href="/projects.html"><img src="/images/2.png" alt="go to projects page" width="30px" height="auto"></a>
+            <p>PROJECTS</p>
+        </div>
+        <div class="about">
+            <a href="/about.html"><img src="/images/1.png" alt="go to about page" width="30px" height="auto"></a>
+            <p>ABOUT ME</p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="logoContainer">
+            <a href="/index.html"><img src="/images/LOGO.svg" height="50px" width="auto"
+                    alt="Welcome to Arthur Felipe's portfolio"></a>
+        </div>
+
+        <div class="navigationLinks">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/projects.html">PROJECTS</a></li>
+                <li><a href="/about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

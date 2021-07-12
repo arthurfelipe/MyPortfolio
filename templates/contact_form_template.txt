@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles/general_style.css">
+</head>
+
+<body>
+    <hr class="separator">
+    <div class="contactForm">
+        <!-- I'm using Netlify to handle form submissions. Be sure to use
+                data-netlify="true" and to give a form name unique to your project, 
+                so you recognize it on the dashboard, if you're also using Netlify  -->
+        <p>Want to contact me? Fill up this form!<br>Let's get in touch.</p>
+        <form name="contactViaNetlify" data-netlify="true" action="/success.html" method="POST"
+            enctype="multipart/form-data">
+            <div class="firstRow">
+                <input type="text" name="name" class="formControl" placeholder="Name">
+                <input type="email" name="email" class="formControl" placeholder="E-mail">
+            </div>
+            <div class="secondRow">
+                <input type="tel" name="phone" class="formControl" placeholder="Phone">
+                <input type="file" name="file" class="formControl" placeholder="File upload">
+            </div>
+            <div class="thirdRow">
+                <textarea rows="5" cols="70" name="message" class="formControl"
+                    placeholder="Type your message here"></textarea>
+            </div>
+            <input type="submit" class="submitButton">
+        </form>
+    </div>
+    <p>From Arthur, to the world 🌎 | Campinas, São Paulo | 2021</p>
+</body>
+
+</html>
