@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+/*assigning general rules for the body of the page*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #000;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+
+    .logoContainer {
+        margin: 12px 0 -8px 0;
+    }
+
+    .logoContainer img {
+        height: 50px;
+        width: auto;
+    }
+
+    /*'position: absolute' and 'right: 0' allows for the hyperlinks to be fixed on 
+    the top right corner without moving downwards, only side to side*/
+    .navigationLinks {
+        position: absolute;
+        right: 0;
+        margin: 1.6em 10vw 0 0;
+    }
+
+    .navigationLinks li {
+        display: inline; /*this allows for the list do be displayed horizontally */
+        margin: 30px;    
+        text-decoration: none
+    }
+
+    .navigationLinks li > a {
+        text-decoration: none;
+        color: #868F94;
+    } 
+
+    /*transition for mouse-over action*/
+    .navigationLinks li > a:hover {
+        color: #ffffff;
+        transition: ease-in 0.2s;
+    } 
+
+    .mobileNavigationBar {
+        display: none;
+    }
+
+/* MOBILE PORTION */
+@media (max-width: 720px) {
+    .header {   
+        position: initial;
+        width: 97vw;
+    }
+
+        .navigationLinks {
+            display: none;
+        }
+
+    .mobileNavigationBar {
+        z-index: 1;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        background-color: whitesmoke;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: small; 
+        padding: 0.5em 0 0 0;
+        border: 1px solid #b6b6b6     
+    }
+    
+        .icon {
+            width: 30px;
+            height: auto;
+        }
+    
+        .home img {
+            margin-left: 0.2em;
+        }
+    
+        .about img {
+            margin-left: 1.4em;
+        }
+    
+        .projects img {
+            margin-left: 1.05em;
+        }
+}

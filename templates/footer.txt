@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="/styles/footer_style.css">
+</head>
+
+<body>
+    <div class="footerContainer">
+
+        <div class="upperPortion">
+
+            <div class="contactMeContainer">
+                <p class="contactMeTitle">Do you wish to contact me?</p>
+                <p>Click on the button below to contact me <br>or find me on my <b>social media.</b></p><br>
+                <a href="/contact_form.html" title="Contact me">CONTACT ME</a>
+            </div>
+
+            <div class="myInfoContainer">
+                <p>Campinas<br>São Paulo, Brazil<br>a231661@dac.unicamp.br</p>
+                <a href="https://www.linkedin.com/in/arthur-felipe-1326351aa" title="Go to Arthur's Linkedin page">
+                    <img src="/images/linkedin.png" alt="follow my instagram account" title="Go to Arthur's Instagram page"></a>
+                <a href="https://www.instagram.com/merryweather553/"><img src="/images/instagram.png"
+                        alt="follow me on linkedin"></a>
+            </div>
+
+        </div>
+        
+        <div class="lower">
+            <hr>
+            <p>©2021 ARTHUR FELIPE</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

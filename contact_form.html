@@ -1,16 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/general_style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title> <!-- assigns a title to appear on the browser bar -->
+    <link rel="stylesheet" href="styles/form_style.css">
+    <link rel="shortcut icon" href="/images/BLACK LOGO.svg"> <!-- icon on the browser bar -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script> <!-- importing JS' JQuery library -->
+    <script src="scripts/templateLoader.js"></script> <!-- importing our template files for header & footer -->
 </head>
 
 <body>
-    <hr class="separator">
+    <div id="resourcesWrapper"> <!-- this div will be replaced by the header template -->
+    </div>
+
     <div class="contactForm">
         <!-- I'm using Netlify to handle form submissions. Be sure to use
                 data-netlify="true" and to give a form name unique to your project, 
                 so you recognize it on the dashboard, if you're also using Netlify  -->
-        <p>Want to contact me? Fill up this form!<br>Let's get in touch.</p>
+        <p class="superText">Contact me</p>
+        <p class="infText">Let me know how we can help eachother.</p>
         <form name="contactViaNetlify" data-netlify="true" action="/success.html" method="POST"
             enctype="multipart/form-data">
             <div class="firstRow">
@@ -25,10 +36,13 @@
                 <textarea rows="5" cols="70" name="message" class="formControl"
                     placeholder="Type your message here"></textarea>
             </div>
-            <input type="submit" class="submitButton">
+            <input type="submit" class="submitButton" title="Submit">
         </form>
     </div>
-    <p>From Arthur, to the world 🌎 | Campinas, São Paulo | 2021</p>
+
+    <div id="footer"> <!-- this div will be replaced by the footer template -->
+    </div>
+
 </body>
 
 </html>

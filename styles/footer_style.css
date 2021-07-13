@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+/* THIS STYLESHEET WILL BE RESPONSIBLE FOR STYLING THE
+    FOOTER, ONLY. THEREFORE, YOU ONLY NEED TO LINK IT TO
+    THE TEMPLATE PAGE, NOT THE HTML */
+.footerContainer {
+    color: rgb(253, 249, 231);
+    background-color: rgb(14, 14, 14);
+}
+
+.upperPortion {
+    display: flex;
+}
+
+/*this allows the right portion to stay put on the right corner*/
+.myInfoContainer {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin: 5em 7vw 0 0;
+}
+
+.myInfoContainer p {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    line-height: 1.7em;
+    font-size: larger;
+}
+
+.myInfoContainer img {
+    height: 30px;
+    width: auto;
+    margin: 1em 0.5em 0 0;
+    cursor: pointer;
+}
+
+.contactMeTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.contactMeContainer {
+    padding: 3.5em 0 0 5vw;
+}
+
+.contactMeContainer a {
+    background-color: cornsilk;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 4em;
+    font-size: small;
+    border: 1px solid black;
+    font-weight: bold;
+    /*this transition effect is a cool way of having a 'mouse out' effect. user 'bettayeb'
+    killed it @https://stackoverflow.com/a/37162813/16360287*/
+    transition: ease-in 0.4s;
+}
+
+.contactMeContainer a:hover {
+    background-color: black;
+    color: blanchedalmond;
+    border: 1px solid white;
+    transition: ease-in 0.4s;
+}
+
+.lower hr {
+    margin-top: 4em;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: rgb(77, 68, 68);
+    color: rgb(77, 68, 68);
+    height: 2px;
+}
+
+.lower p {
+    text-align: center;
+    padding: 2em 0 1.7em 0;
+    color: rgb(151, 151, 151);
+}
+
+@media (max-width: 720px) {
+    .upperPortion {
+        display: initial;
+    }
+
+    .contactMeContainer {
+        padding: 4em 0 0 0;
+        text-align: center;
+    }
+
+    .myInfoContainer {
+        text-align: center;
+        position: initial;
+      
+        margin: 5em 6vw 0 0;
+    }
+
+    .myInfoContainer img {
+        margin: 1em 0 0 0;
+    }
+
+    .lower p {
+        padding: 2em 0 5em 0;
+    }
+    
+}

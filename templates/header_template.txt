@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="styles/general_style.css">
+    <link rel="stylesheet" href="/styles/header_style.css">
 </head>
 
 <body>
@@ -23,14 +23,14 @@
     <div class="header">
         <div class="logoContainer">
             <a href="/index.html"><img src="/images/LOGO.svg" height="50px" width="auto"
-                    alt="Welcome to Arthur Felipe's portfolio"></a>
+                    alt="Welcome to Arthur Felipe's portfolio" title="Go to the homepage"></a>
         </div>
 
         <div class="navigationLinks">
             <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/projects.html">PROJECTS</a></li>
-                <li><a href="/about.html">ABOUT ME</a></li>
+                <li><a href="/index.html" title="Go to the homepage">HOME</a></li>
+                <li><a href="/projects.html" title="Go to the projects page">PROJECTS</a></li>
+                <li><a href="/about.html" title="Go to the about page">ABOUT ME</a></li>
             </ul>
         </div>
     </div>
