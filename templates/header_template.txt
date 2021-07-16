@@ -7,16 +7,13 @@
 <body>
     <div class="mobileNavigationBar">
         <div class="home">
-            <a href="/index.html"><img src="/images/3.png" alt="go to home page" width="30px" height="auto"></a>
-            <p>HOME</p>
+            <a href="/index.html"><img src="/images/1.png" alt="go to home page" width="22px" height="auto"></a>
         </div>
         <div class="projects">
-            <a href="/projects.html"><img src="/images/2.png" alt="go to projects page" width="30px" height="auto"></a>
-            <p>PROJECTS</p>
+            <a href="/projects.html"><img src="/images/2.png" alt="go to projects page" width="24px" height="auto"></a>
         </div>
         <div class="about">
-            <a href="/about.html"><img src="/images/1.png" alt="go to about page" width="30px" height="auto"></a>
-            <p>ABOUT ME</p>
+            <a href="/about.html"><img src="/images/3.png" alt="go to about page" width="22px" height="auto"></a>
         </div>
     </div>
 

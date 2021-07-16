@@ -46,7 +46,7 @@
 }
 
 .contactMeContainer a {
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
     color: black;
     cursor: pointer;
     text-align: center;
@@ -62,7 +62,7 @@
 
 .contactMeContainer a:hover {
     background-color: black;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     border: 1px solid white;
     transition: ease-in 0.4s;
 }

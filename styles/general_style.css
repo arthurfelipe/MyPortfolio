@@ -105,7 +105,25 @@
     /*this trick allows for the little 'sticker' in front of the project
     title. makes it easier for people to visually filter through the projects*/
     .cadProjects li::before {
-        content: "AutoCAD";
+        content: "CAD";
+        color: rgb(17, 17, 17);
+        background: rgb(202, 202, 202);
+        border-radius: 5px;
+        padding-inline: 1vh;
+        margin-inline-end: 1vh;
+    }
+
+    .codeProjects li::before {
+        content: "Code";
+        color: rgb(17, 17, 17);
+        background: rgb(202, 202, 202);
+        border-radius: 5px;
+        padding-inline: 1vh;
+        margin-inline-end: 1vh;
+    }
+
+    .techProjects li::before {
+        content: "Tech";
         color: rgb(17, 17, 17);
         background: rgb(202, 202, 202);
         border-radius: 5px;

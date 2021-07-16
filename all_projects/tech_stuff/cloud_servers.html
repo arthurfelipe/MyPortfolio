@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importance of UI Design</title> <!-- assigns a title to appear on the browser bar -->
+    <link rel="stylesheet" href="/styles/general_style.css"> <!-- linking the css file for this project -->
+    <link rel="shortcut icon" href="/images/BLACK LOGO.svg"> <!-- icon on the browser bar -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="/scripts/templateLoader.js"></script>
+</head>
+
+<body>
+    <div id="resourcesWrapper">
+    </div>
+
+    <div class="contentSection">
+
+        <div class="titleArea">
+            <div class="logoSection">
+                <img src="/images/BLACK LOGO.svg" height="70px" width="auto"
+                    alt="Under here you will find more about me">
+            </div>
+
+        </div>
+
+        <div class="pageArticleContainer">
+
+            <p class="title">Is cloud computing actually worth it?</p>
+
+            <img class="image" src="/images/projects_images/cloud.jpg"
+                alt="a very pretty cloud image">
+
+            <p class="smallText">By Arthur Felipe<br>July 12, 2021</p>
+
+            <div class="textContainer">
+
+                <p class="abstract"><u>SUMMARY:</u>
+                    In the IT field, there are many strong opinions for and against cloud computing. 
+                    But what is the fuss all about? Is it actually worth it? Are some better than others? </p>
+
+                <hr class="separator">
+
+                <div class="textArea">
+                    <p>If you open a YouTube video that even touches the subject of cloud computing, you will 
+                        find people on the comments section typing either A) Cloud is the worst thing ever created 
+                        or B) Cloud is magical. Reality check: It isn't either. Why?<br>
+                        <br>
+                        In the past, cloud resources were a complicated type of business, since subscription-based 
+                        plans only gained credibility in the last couple of years (mainly because of streaming services 
+                        like Netflix, Hulu, Spotify and many others). The fear of being overcharged or having your 
+                        information leaked was very strong, and it was justified.
+
+                    </p>
+                    <p class="subtitle">DATA BREACHING AND OVERCHARGING</p>
+
+                    <p>There are 2 main ways where your data could be exposed when working with cloud computing: Your 
+                        sensitive data being leaked (like credit card info, personal or company data, and so on) because 
+                        of weak digital security practices, or, content regarding your project being leaked (like databases 
+                        and such), since you are trusting your sensitive data to another company. As time went on, new 
+                        security measurements were implemented (look around, we don't even mind looking up the site' security 
+                        certificates we are buying things from). This, in pair with the fact that most of the cloud resources 
+                        are generally offered by well-known and well-trusted tech companies (like Google, Microsoft and Amazon) 
+                        keeps bringing more assurance to people their data is actually secure (from malicious users, because 
+                        these companies WILL use your data how and whenever they want to, as described in their TOSs). On top 
+                        of that, these platforms also offer you, the developer, a bunch of counter measurements against DDoS 
+                        & OWASP that, in the end, if well set up, should back you up against plenty of attacks (cloud-specific 
+                        or even general web attacks, what is a very solid argument for these services). Platforms like Google's 
+                        GCP also feature load-balancing, security policies, real time monitoring and many other features, just 
+                        like your traditional server setup, usually with no extra charges.<br>
+                        <br>
+                        Overcharging is also a big concern when we talk about cloud computing. We have all heard companies 
+                        that made one silly mistake which cost them upwards of 20 THOUSAND dollars. And you also have normal, 
+                        everyday users that slipped their fingers and sent 1 thousand bucks down the drain in a couple of hours. 
+                        The most common counter measurement is to set a spend limit (which, as far as I know Google offers and 
+                        insists that you use it in their course). You can also set usage limits, so you don't exceed your quota. 
+                        On top of that, some companies don't want to be the "bad guys": Google doesn't want you to spend 5 grand 
+                        by mistake, keep it and then risk their own image or stock prices. That may vary a lot, since you will 
+                        be relying solely on the company' mercy and customer relationship policy. My tip for you? Don't rely on 
+                        that. Keep a very tight spending quota, so if things go south, you and your company are both safe.
+                    </p>
+
+                    <p class="subtitle">EASE OF USE AND RESOURCES</p>
+
+                    <p>Working with either locally hosted servers or cloud hosted servers requires some knowledge, especially 
+                        if you are, for example, dealing with an important website, known to have many visitors around the world, 
+                        and should have >99% of availability. My biggest experience is with Google's GCP, and as far as I can 
+                        tell, the UI is very straight-forward, documentation is VERY well done and there are plenty of courses! 
+                        Google even offers you plenty of hands-on experience with their courses, which I absolutely recommend 
+                        (and this post is not sponsored by any means, I just dig the service a bunch). I've had more problems 
+                        with AWS, but that's out of the scope.
+                    </p>
+
+                    <p class="subtitle">PRICING</p>
+
+                    <p>That's the fun part. If you have big needs, to host a local server, you have to consider:</p>
+                    
+                        <li>Buying the server itself;</li>
+                        <li>Having a team for maintenance, update and set up;</li>
+                        <li>Buying add-ons (like room cooling solutions, cables, routers, switches, no-breaks, 
+                            sound deadening liners...);</li>
+                        <li>Dealing with disasters (like fire, water, dust, animals, intruders...);</li>
+                        <li>Dealing with downtime for maintenance or updates;</li>
+                        <li>Electrical expenses;</li>
+                        <li>Enterprise-level internet connection expenses;</li>
+                        <li>A separate room only for the server...</li>
+                    
+                    <p>And the costs only go up. I have no doubts that the expense, plus the inconvenience of hosting your 
+                        own server is enough to make you move to a cloud hosted service. Don't get me wrong, it is still going 
+                        to be expensive, but less. And, usually, you pay for what you use, so in a month that you use less 
+                        resources, you will actually pay less than usual.<br>
+                        <br>
+                        For small businesses, I also recommend cloud-based alternatives, since there are very low-buck options 
+                        that are more than capable of dealing with the load, and the AVAILABILITY and RELIABILITY are just 
+                        unbeatable (for the price, at least). Way better than using a 7y.o. dual core as a makeshift server.<br>
+                        <br>
+                        But, if you have a medium-sized business that can get by with a core i7 or i9, I really recommend 
+                        sticking to the locally hosted server (if you can deal with downtime in some way). Why? In this tier, 
+                        cloud hosting prices are actually quite high, to the point that, in the long run, it's cheaper to 
+                        have your own solution. On top of that, a core i7 or i9 server is still quite small and isn't much 
+                        of a hassle. Of course, you will have to come up with your own solution regarding attacks and updates, 
+                        but that's on you to decide. Also, you have to consider your company's growth: Does your company have 
+                        the chance of, in the near future, becoming a big company, with big needs? If yes, maybe you should 
+                        consider a cloud-based solution from the very beginning, so you don't have to spend money twice 
+                        (buying a decent local server and then after a couple of years having to rent a web server is no 
+                        good). That's why it is so important to know your business and plan every spend with caution. 
+                        Don't rely on a guy on the internet, real data is unbeatable.<br>
+                        <br>
+                        I hope you guys have enjoyed all this! I'm a Systems Information Undergraduate that enjoys computing in general and want 
+                        to give my view on this topic :) 
+                    </p>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+    </div>
+
+</body>
+
+</html>
